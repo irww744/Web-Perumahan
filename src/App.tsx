@@ -21,6 +21,7 @@ import {
   Building
 } from 'lucide-react';
 import Navbar from './components/Navbar';
+import LiveChat from './components/LiveChat';
 
 function App() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -934,6 +935,9 @@ function App() {
           </div>
         </div>
       </footer>
+      
+      {/* Live Chat Component */}
+      <LiveChat />
     </div>
   );
 }
